@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  font-family: 'Josefin Sans', sans-serif; ;
+}
+.logo{
+    position: absolute;
+    z-index: 1;
+    margin: 1em;
+}
+.eclipse{
+    position:absolute;
+    z-index: 1;
+}
+
+.nav-bar{
+    list-style-type: none;
+    position: sticky;
+    justify-content: center;
+    display: flex;
+    background: transparent;
+    margin-right: 5rem;
+}
+.nav-bar ul{
+    display: flex;
+    margin: 2rem auto;
+    list-style-type: none;
+    padding: 0;
+    color: #101010;
+}
+.nav-bar ul li a{
+    margin: 0rem 2rem;
+    font-size: 16px;
+    color: #101010;
+}
+.nav-bar ul li:hover{
+    border-color: #101010;
+    background: #FDFDFD;
+    cursor: pointer;
+}
+
+.btn-contactUs{
+    background: transparent;
+    border-color: #101010;
+    color: #101010;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 13ch;
+    height: 2rem;
+    margin-top: 1.5em;
+}
+.btn-contactUs:hover{
+    background: #101010;
+    border-color: #FDFDFD;
+    color: #FDFDFD;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.main-txt{
+    display: grid;
+    justify-content: center;
+    padding: 4rem 0rem;
+}
+.main-txt h2{
+    font-size: 45px;
+    font-weight: 800;
+    padding: 1rem;
+}
+.main-txt p{
+    min-width: 16ch;
+    max-width: 69ch;
+    padding: 0.5rem 2rem 2rem 0;
+  }
+
+.btn-catalogue{
+    border-radius: 3px;
+    font-size: 16px;
+    width: 21ch;
+    height: 2rem;
+    margin: auto;
+    background: #101010;
+    color: #FDFDFD;
+   
+}
+.btn-catalogue:hover{
+    cursor: pointer;
+    background: #FDFDFD;
+    color: #101010;
+    transition: ease-in-out 0.3s;
+}
+.main-boat{
+    position: absolute;
+    z-index: 10;
+    margin-top: 35rem;
+    width: 62%;
+    margin-left: 18rem;
+}
+.bright-yellow-wave{
+   
+    z-index: 100;
+    position:absolute;
+    margin: 40rem 0;
+}
+.dark-yellow-wave{
+position: absolute;
+z-index: 1;
+margin: 40rem 0;
+}
+.eclipse {
+    position: absolute;
+    z-index: 1;
+    margin-left: 58rem;
+  }
+  .bottom-yellow-wave{
+    position: absolute;
+    z-index: 1000;
+    margin: 85rem 0;
+  }
+  .middle-bottom-wave{
+    position: absolute;
+    z-index: 500;
+    margin: 85rem 0;
+  }
+  .catalogue{
+    position: relative;
+    z-index: 600;
+    display: grid;
+    grid-row: 1 ;
+    justify-content: center;
+    margin: 31rem;
+  }
+  .catalogue-header{
+    justify-content: center;
+    display: flex;
+    font-size: 45px;
+  }
+  .img-catalogue{
+    display: flex;
+  }
+  .catalogue-boat{
+    height: 250px;
+    padding: 0 3rem;
+  }
+  .catalogue p{
+    min-width: 16ch;
+    max-width: 69ch;
+    padding: 1rem 2rem;
+    margin-left: 30em;
+  }
+  .img-catalogue svg{
+    margin: 7rem 0rem;
+  }
+  .btn-seeAll{
+    border-radius: 3px;
+    font-size: 16px;
+    width: 21ch;
+    height: 2rem;
+    margin: 1rem 43rem;
+    background: #101010;
+    color: #FDFDFD;
+  }
+  .black-bottom-wave{
+    position: absolute;
+    z-index: 2000;
+  }
+  .black-middle-bottom-wave{
+    position: absolute;
+    z-index: 1500;
+
+  }
+  .contact-us-content{
+    display: flex;
+    position: relative;
+    z-index: 4000;
+    margin: -20rem auto;
+  }
+  .inside-yacht{
+    width: 40rem;
+  }
+.txt-contact-us{
+    max-width: 55ch;
+    padding: 3rem 0rem 0rem 12rem;
+}
+.txt-contact-us-p{
+    padding: 1rem 0 2rem 0;
+}
+.txt-contactUs-btn{
+    background: #101010;
+    border-color: #101010;
+    color: #FDFDFD;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 13ch;
+    height: 2rem;
+    margin-top: 1.5em;
+}
+.txt-contactUs-btn:hover{
+    background: transparent;
+    border-color: #101010;
+    color: #101010;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.contact-us-content-2{
+    display: flex;
+    position: relative;
+    z-index: 4000;
+    margin: 18rem;
+  }
+ .contact-us-yacht{
+    width: 40rem;
+    margin-right: -10rem;
+  }
+  .txt-contact-us-2{
+    padding: 2.5rem 0;
+    margin-left: -14rem;
+  }
+  .txt-contact-us-p-2{
+    padding: 1rem 0 2rem 0;
+  }
+  .txt-contact-us-2-btn{
+    background: #101010;
+    border-color: #101010;
+    color: #FDFDFD;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 13ch;
+    height: 2rem;
+    margin-top: 1.5em;
+}
+.txt-contact-us-2-btn:hover{
+    background: transparent;
+    border-color: #101010;
+    color: #101010;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.footer-logo{
+    position: absolute;
+    z-index: 4000;
+    margin-left: 40rem;
+  }
+.footer{
+    display: flex;
+    justify-self: center;
+    z-index:4000 ;
+    color: #FDFDFD;
+}
+
+
+  
